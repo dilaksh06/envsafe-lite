@@ -1,18 +1,30 @@
 {
   "name": "envsafe-lite",
   "version": "1.0.0",
+  "description": "Lightweight, type-safe environment variable parser for Node.js with zero dependencies.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "keywords": [
+    "env",
+    "dotenv",
+    "envsafe",
+    "config",
+    "typescript",
+    "validation",
+    "safe-env"
+  ],
+  "author": "Dilakshan Kamalathasan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dilaksh06/envsafe-lite.git"
+  },
   "scripts": {
     "test": "vitest run",
     "build": "tsc",
     "clean": "rimraf dist",
     "dev": "tsc --watch"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@types/node": "^24.0.3",
     "rimraf": "^6.0.1",
