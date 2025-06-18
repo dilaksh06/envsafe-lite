@@ -2,11 +2,7 @@ Absolutely! You’re right — a good `README.md` should be **clear, minimal, an
 
 Here’s a cleaned-up, **professional and concise** version of your `README.md`, removing any repetition or noise — while keeping it beginner-friendly and useful for developers.
 
----
 
-## ✅ Final `README.md` for `envsafe-lite`
-
-````markdown
 # 🌿 envsafe-lite
 
 A tiny, zero-dependency utility for safely loading and validating environment variables in Node.js — with full TypeScript support.
