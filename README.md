@@ -130,22 +130,6 @@ Pluggable custom validators (`url()`, `enum()`, etc.) are planned for future ver
 ## 📄 License
 
 MIT © 2025 Dilakshan Kamalathasan
-[GitHub Repository](https://github.com/your-username/envsafe-lite)
+[GitHub Repository](https://github.com/dilaksh06/envsafe-lite)
 
-```
 
----
-
-## ✅ Next Steps
-
-- Save this as your `README.md`
-- Update the **GitHub Repository link** at the bottom when ready
-- After this, you’ll be ready to **publish to NPM** — want to proceed with that now?
-
-Let me know if you'd like help with:
-- Publishing
-- Adding a logo or badges
-- Creating a GitHub repo structure
-
-You're almost there 🚀
-```
