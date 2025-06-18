@@ -1,4 +1,3 @@
-Absolutely! Here's a complete, clean, and professional `README.md` for your `envsafe-lite` NPM package — with all the important sections included in one place. You can copy-paste this directly into your project.
 
 ---
 
@@ -66,7 +65,7 @@ All validators support a `default` option.
 
 If required variables are missing or malformed, `envsafe-lite` throws clear errors:
 
-```txt
+```
 [envsafe-lite] Missing required environment variable: DB_URL
 [envsafe-lite] Invalid number for environment variable PORT: "abc"
 [envsafe-lite] Invalid boolean for environment variable DEBUG_MODE: "maybe"
@@ -88,13 +87,6 @@ Load this using:
 import "dotenv/config";
 ```
 
-Or manually using:
-
-```ts
-import * as dotenv from "dotenv";
-dotenv.config();
-```
-
 ---
 
 ## 📜 TypeScript Support
@@ -111,9 +103,9 @@ const config = envSafe({
 
 ---
 
-## 🧪 Tests
+## 🧪 Run Tests
 
-This package includes full unit tests using [Vitest](https://vitest.dev).
+This package includes unit tests using [Vitest](https://vitest.dev):
 
 ```bash
 npm run test
@@ -121,15 +113,19 @@ npm run test
 
 ---
 
-## 🔧 Advanced Use (Custom Validators) — Coming Soon
+## 📅 Roadmap
 
-Pluggable custom validators (`url()`, `enum()`, etc.) are planned for future versions.
+Planned upcoming features:
+
+* `url()`, `email()`, `enum()` validators
+* Custom validator API (`custom(fn)`)
+* CLI tool: `envsafe-lite check`
+* Auto-generate `.env.example`
 
 ---
 
 ## 📄 License
 
-MIT © 2025 Dilakshan Kamalathasan
-[GitHub Repository](https://github.com/dilaksh06/envsafe-lite)
+MIT © 2025 [Dilakshan Kamalathasan](https://github.com/dilaksh06)
 
-
+```
