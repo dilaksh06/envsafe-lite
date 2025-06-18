@@ -1,15 +1,3 @@
-Absolutely! You’re right — a good `README.md` should be **clear, minimal, and focused on helping users install and use the package immediately**.
-
-Here’s a cleaned-up, **professional and concise** version of your `README.md`, removing any repetition or noise — while keeping it beginner-friendly and useful for developers.
-
-
-# 🌿 envsafe-lite
-
-A tiny, zero-dependency utility for safely loading and validating environment variables in Node.js — with full TypeScript support.
-
----
-
-## 📦 Install
 
 ```bash
 npm install envsafe-lite
