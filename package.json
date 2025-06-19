@@ -19,12 +19,21 @@
     "type": "git",
     "url": "git+https://github.com/dilaksh06/envsafe-lite.git"
   },
+  "homepage": "https://github.com/dilaksh06/envsafe-lite#readme",
+  "bugs": {
+    "url": "https://github.com/dilaksh06/envsafe-lite/issues"
+  },
   "scripts": {
     "test": "vitest run",
     "build": "tsc",
     "clean": "rimraf dist",
     "dev": "tsc --watch"
   },
+  "files": [
+    "dist",
+    "README.md",
+    "ROADMAP.md"
+  ],
   "devDependencies": {
     "@types/node": "^24.0.3",
     "rimraf": "^6.0.1",
